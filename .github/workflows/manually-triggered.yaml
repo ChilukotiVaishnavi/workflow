@@ -2,7 +2,7 @@ name: Manually Triggered
 on: 
     workflow_dispatch:
 
-job:
+jobs:
     log-info:
         runs-on: ubuntu-latest
         steps:
