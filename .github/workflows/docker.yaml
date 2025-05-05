@@ -1,4 +1,4 @@
-name: Docker Workflow
+name: Docker 
 
 on: 
   workflow_dispatch:
@@ -28,7 +28,6 @@ jobs:
       - name: Run application
         run: |
           echo "Running application..."
-          node index.js 
 
       - name: Log node version in a step
         uses: docker://node:18.16-alpine3.17
